@@ -19,3 +19,5 @@ http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted
 
 -- 주문 취소 하기
 http PATCH localhost:8088/orders/1 state=OrderCancelled
+
+[![Build Status](https://dev.azure.com/user04devops/user04devops/_apis/build/status/user04devops-CI?branchName=master)](https://dev.azure.com/user04devops/user04devops/_build/latest?definitionId=2&branchName=master)
